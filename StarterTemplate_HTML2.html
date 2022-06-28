@@ -59,6 +59,78 @@
       .subtitle.bottom{
         font-size: 32px;
       }
+
+      .article {
+        
+        font-weight: 400;
+        
+        margin-bottom: 16px;
+        margin-top: 0px;
+        width: 400px;
+      }
+      .article.top {
+        font-size: 20px;
+        line-height: 30px;
+      }
+      .article.bottom {
+        font-size: 16px;
+        line-height: 24px;
+      }
+
+      /* 버튼 */
+      .button.wrap{
+        margin-bottom: 48px;
+      }
+      .button.clicked{
+        background-color: dodgerblue;
+        font-size: 20px;
+        font-weight: 400;
+        color: white;
+        padding: 8px 24px;
+        height: 48;
+        text-decoration: none; /* a 태그 밑줄 없애기 */
+        border-radius: 10px; /* 둥근 모서리 */
+      }
+      .button.clicked:hover{
+        background-color: darkblue;
+      }
+
+      /* 중간 경계선 */
+      .line.middle {
+        width: 116px;
+        text-align: start;
+        margin: 16px 0px 48px 0px;
+        border-top: 1px solid gainsboro;
+      }
+
+      /* 작은 문단 */
+      .subcol {
+        margin-top: 48;
+        padding: 0px;
+      }
+
+      /* 리스트 */
+      .subcol {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+      }
+      .subcol ul {
+        padding-inline-start: 24px;
+      }
+      .subcol li {
+        list-style-image: url('arrow.png');
+      }
+      
+      /* 마지막 */
+      .footer {
+        margin: 48px 0px;
+        padding-top: 48px;
+        border-top: 1px solid gainsboro;
+        font-size: 16px;
+        font-weight: 400;
+        color: gray;
+      }
     </style>
   </head>
   <body>
@@ -87,25 +159,25 @@
 
       <main>
         <h1 class="subtitle top">Get started with Bootstrap</h1>
-        <p class="">
+        <p class="article top">
           Quickly and easily get started with Bootstrap's compiled,
           production-ready files with this barebones example featuring some
           basic HTML and helpful links. Download all our examples to get
           started.
         </p>
 
-        <div class="">
-          <a href="https://getbootstrap.com/docs/5.2/examples/" class=""
+        <div class="button wrap">
+          <a href="https://getbootstrap.com/docs/5.2/examples/" class="button clicked"
             >Download examples</a
           >
         </div>
 
-        <hr class="" />
+        <hr class="line middle" />
 
         <div class="">
-          <div class="">
+          <div class="subcol">
             <h2 class="subtitle bottom">Starter projects</h2>
-            <p>
+            <p class="article bottom">
               Ready to beyond the starter template? Check out these open source
               projects that you can quickly duplicate to a new GitHub
               repository.
@@ -123,9 +195,9 @@
             </ul>
           </div>
 
-          <div class="">
+          <div class="subcol">
             <h2 class="subtitle bottom">Guides</h2>
-            <p>
+            <p class="article bottom">
               Read more detailed instructions and documentation on using or
               contributing to Bootstrap.
             </p>
@@ -158,7 +230,7 @@
           </div>
         </div>
       </main>
-      <footer class="">Created by the Bootstrap team · © 2022</footer>
+      <footer class="footer">Created by the Bootstrap team · © 2022</footer>
     </div>
   </body>
 </html>
