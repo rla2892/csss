@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h3 {
+            background-color: white;
+        }
+
+        h3:hover {
+            background-color: blueviolet;
+        }
+
+        /* .parents div */
+        /* .parents > div */
+        .parents > h3 + .childone + .childtwo > h3 + div {
+            color: blueviolet;
+            border: 1px dotted black;
+            background-color: gainsboro;
+            margin: 5px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <h3>Parents</h3>
+    <div class="parents">
+        <h3>start parents</h3>
+        <div class="childone">child one</div>
+        <div class="childtwo">
+            <h3>child two</h3>
+            <div>grand child two-one</div>
+            <div>grand child two-two</div>
+        </div>
+        <div class="childthree">
+            <h3>child three</h3>
+            <div>grand child three-one</div>
+            <div>grand child three-two</div>
+        </div>
+        <h3>end parents</h3>
+    </div>
+
+</body>
+</html>
