@@ -21,3 +21,19 @@ button {
     border-radius: 20px 30px 40px 50px;
 }
 
+span{
+    color: tomato;
+    margin: 5px;
+    background-color: aqua;
+}
+
+.span-second:hover {
+    display: none;
+}
+
+.span-third:hover {
+    visibility: hidden;
+}
+
+
+
