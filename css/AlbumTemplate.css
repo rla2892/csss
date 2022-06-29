@@ -1,0 +1,30 @@
+* {
+    font-size: 10px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.head_dark {
+    background-color: black;
+    color: white;
+}
+
+.white_font * {
+    color: white;
+}
+
+.no_underline * {
+    text-decoration: none;
+}
+
+.nav_side_space {
+    margin: 0px 4rem;
+}
+
+.nav_face {
+    padding: 1rem;
+}
+
+.flexible {
+    display: flex;
+}
