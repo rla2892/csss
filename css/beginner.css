@@ -33,3 +33,17 @@ li {
     line-height: 30px;
 }
 
+.ul-none > * {
+    list-style-type: none;
+    color: blueviolet;
+    display: flex;
+    align-items: center;
+}
+
+/* .ul-none > li > span {
+    color: red;
+} */
+
+.material-symbols-outlined {
+    color: red;
+}
