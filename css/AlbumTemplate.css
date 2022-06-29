@@ -83,6 +83,7 @@
 }
 .material-symbols-outlined{
     background-color: black;
+    color: gray;
 }
 
 .flexible {
@@ -90,3 +91,89 @@
 
 }
 
+/* 메인 */
+
+.album_section {
+    width: 100%;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.album_row {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    display: flex;
+}
+.album_col {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.album_section h1 {
+    font-weight: 300;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+}
+.album_col .desc {
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: gray;
+}
+.album_col .button {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    display: inline-block;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    border-radius: 0.375rem;
+}
+.album_col .button.blue{
+    color: white;
+    background-color: dodgerblue;
+    border: 1px solid dodgerblue;
+}
+.album_col .button.blue:hover{
+    background-color: blue;
+    border: 1px solid blue;
+}
+.album_col .button.gray{
+    color: white;
+    background-color: gray;
+    border: 1px solid gray;
+}
+.album_col .button.gray:hover{
+    background-color: black;
+    border: 1px solid black;
+}
+
+/* 썸네일 */
+.thumbnail_section{
+    background-color: gainsboro;
+    padding: 3rem 0rem;
+}
+.thumbnail_list{
+    width: 100%;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+.thumbnail_row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.thumbnail_col{
+    width: 33%;
+    min-width: 24rem;
+    max-width: 26rem;
+    padding: 0rem 0.1rem;
+}
