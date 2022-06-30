@@ -1,7 +1,13 @@
 * {
-    font-size: 10px;
+    font-size: 15px;
     margin: 0px;
     padding: 0px;
+}
+
+.vw-class {
+    background-color: brown;
+    width: 50vw;
+    height: 60vh;
 }
 
 .px-class {
@@ -9,13 +15,13 @@
 }
 
 .rem-class {
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 .em-class {
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
 .percent-class {
-    font-size: 100%;
+    font-size: 120%;
 }
